@@ -1,5 +1,10 @@
 <?php
 
+$headers = "From: $nombre <$correo>\r\n";
+$headers .= "Reply-To: $correo\r\n";
+$headers .= "Content-Type: text/plain; charset=utf-8\r\n";
+
+mail($destinatario, $asunto, $carta, $headers);
 
 // LLAMANDO A LOS CAMPOS
 
