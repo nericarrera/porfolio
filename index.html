@@ -307,8 +307,13 @@
   </section>
 
 
-  <form action="/enviar.php" method="post" class="form_contact">
+  <form 
+      
+      action="https://formspree.io/f/{FORM_ID}" class="form-contact"
+      target="_top"  method="POST">
+      
       <h2>Enviar mensaje</h2>
+
       <div class="user_info" id="contacto">
           <label for="names">Nombres *</label>
           <input type="text" id="names" name="nombre" required>
