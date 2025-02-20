@@ -56,10 +56,10 @@
     display: none;
 }
 
-.navmenu{
-    display: none;
+.navmenu {
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(100%);
 }
-
 
 nav{
     width: 100%;
