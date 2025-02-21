@@ -1,11 +1,5 @@
 
-document.getElementById('abrir').addEventListener('click', function() {
-  document.getElementById('navmenu').style.display = 'block';
-});
 
-document.getElementById('cerrar').addEventListener('click', function() {
-  document.getElementById('navmenu').style.display = 'none';
-});
 
 
 const navmenu = document.querySelector("#navmenu");
