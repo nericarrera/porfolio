@@ -57,10 +57,9 @@
 }
 
 .navmenu {
+  display: none;
   transition: transform 0.3s ease-in-out;
   transform: translateX(100%);
-  background: rgba(34, 14, 79, 0.9); /* Fondo semi-transparente */
-  backdrop-filter: blur(10px); /* Efecto de desenfoque */
 
 }
 
