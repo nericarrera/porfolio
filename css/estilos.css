@@ -292,6 +292,7 @@ box-shadow: 1px 1px 500px 90px #2c00ff;
     text-justify: distribute;
     margin-top: -15px;
     flex-wrap: wrap;
+    text-align: center;
 
 }
 
