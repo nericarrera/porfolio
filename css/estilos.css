@@ -36,6 +36,7 @@
     width: 100%;
     background: #1a1a1a;
     flex-wrap: wrap;
+    justify-content: center;
       
 }
 
