@@ -973,18 +973,18 @@ form.form_contact textarea {
 }
 
 form.form_contact input[type="submit"] {
-  width: 180px;
+  width: 155px;
   height: 45px;
   background: #4091EC;
   padding: 10px;
   border: none;
   border-radius: 25px;
-  align-self: flex-end;
   color: #fff;
   font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
+  text-align: center;
 }
 
 form.form_contact input[type="submit"]:hover {
@@ -2424,6 +2424,7 @@ form.form_contact input[type="submit"]:hover {
   form.form_contact input,
   form.form_contact textarea {
     width: 90%;
+    height: 30px;
     padding: 12px 5px 5px;
     margin-bottom: 8px;
     border: none;
