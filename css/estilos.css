@@ -3508,7 +3508,6 @@ form.form_contact {
     background: #000;
     color: #ffffff;
     text-align: end;
-    width: 166px;
     border-top: 1px solid #000000;
     height: 40px;
     justify-content: center;
@@ -3559,7 +3558,7 @@ form.form_contact {
     .navmenu.visible{
         opacity: 1;
         visibility: visible;
-        width: 200px;
+        
     }
 
     .nav-list {
