@@ -1094,7 +1094,6 @@ box-shadow: 1px 1px 500px 90px #2c00ff;
     font-size: 16px;
     font-weight: 500;
     -webkit-text-stroke: 1.0;
-    height: 45px;
   }
   
 form.form_contact textarea{
@@ -1326,7 +1325,7 @@ nav{
     position: absolute;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 50px;
+    margin-top: -15px;
     text-justify: distribute;
     height: 300px;
     justify-content: center;
@@ -2511,8 +2510,7 @@ nav{
         padding: 5px;
         justify-content: center;
         align-items: center;
-        flex-wrap: wrap;
-        background: #ff4e4e;    
+        flex-wrap: wrap; 
       }
 
     .educacion-tarjeta {
