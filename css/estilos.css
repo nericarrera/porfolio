@@ -1249,7 +1249,7 @@ form.form_contact input[type="submit"]:hover {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background: #ff4e4e;
+    background: rgba(0, 0, 0, 0.05);
     height: 500px;
     border-top-right-radius: 33%;
   }
