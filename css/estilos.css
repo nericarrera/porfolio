@@ -2360,12 +2360,12 @@ nav{
 
     .form_wrap {
         z-index: 100;
-        margin-top: 50px;
         display: flex;
         margin-top: 582px;
         background: #fff;
         border-radius: 10px;
         overflow: hidden;
+        justify-content: center;
       }
 
     form.form_contact {
