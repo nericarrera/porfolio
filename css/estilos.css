@@ -245,7 +245,6 @@ box-shadow: 1px 1px 500px 90px #2c00ff;
 }
 
 .portada-imagen2-tarjeta{
-  width: 286px;
     display: inline-block;
     justify-content: center;
     align-items: center;
@@ -282,7 +281,6 @@ box-shadow: 1px 1px 500px 90px #2c00ff;
 .portada-info{
     display: inline-block;
     padding: 5px;
-    border-radius: 10px;
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
