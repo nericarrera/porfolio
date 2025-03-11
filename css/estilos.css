@@ -2741,13 +2741,6 @@ nav{
         background-position: center center;
       }
 
-      form.form_contact {
-        width: 60%;
-        padding: 30px 40px;
-        z-index: 100;
-        margin-top: -35px;
-      }
-
       form.form_contact input, form.form_contact textarea {
         width: 85%;
         padding: 12px 5px 5px;
