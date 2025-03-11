@@ -1404,7 +1404,7 @@ nav{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background: #ff4e4e;
+    background: rgb(255 255 255 / 0);
     height: 500px;
     border-top-right-radius: 33%;
     
@@ -2268,7 +2268,6 @@ nav{
     .portada-imagen2-tarjeta {
         display: inline-block;
         width: 320px;
-        height: 445px;
         justify-content: center;
         align-items: center;
         background: rgba(110, 110, 110, 0.199);
@@ -4869,7 +4868,7 @@ form.form_contact {
             position: absolute;
             justify-content: center;
             flex-wrap: wrap;
-            margin-top: 4px;
+            margin-top: -10px;
             text-justify: distribute;
           }
     
@@ -4888,7 +4887,7 @@ form.form_contact {
     .portada-info p
     {
         font-family: 'Ysabeau SC', sans-serif;
-        font-size: 14px;
+        font-size: 11px;
         color: #ffffff;
         text-justify: distribute;
         flex-wrap: wrap;
