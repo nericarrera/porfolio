@@ -319,8 +319,6 @@ box-shadow: 1px 1px 500px 90px #2c00ff;
 }
 
 .educacion-titulo p{
-    width: 142px;
-    height: 68px;
     font-family: "AdihausDIN",Helvetica,Arial,sans-serif;
     font-size: 26px;
     font-weight: bold;
@@ -334,8 +332,6 @@ box-shadow: 1px 1px 500px 90px #2c00ff;
 }
 
 .educacion-titulo:hover{
-    width: 142px;
-    height: 68px;
     background: #1a1a1a;
     color: #ff4e4e;
     transition: all 450ms ease;
