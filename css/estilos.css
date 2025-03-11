@@ -2888,7 +2888,6 @@ form.form_contact {
         width: 47%;
         padding: 30px 40px;
         z-index: 100;
-        margin-top: 50px;
         justify-content: center;
       }
 
@@ -3126,10 +3125,9 @@ form.form_contact {
 
       
         form.form_contact {
-          width: 54%;
+          width: 50%;
           padding: 30px 40px;
           z-index: 100;
-          margin-top: -3px;
         }
 
         form.form_contact h2 {
