@@ -2515,7 +2515,6 @@ nav{
         align-items: center;
         flex-wrap: wrap;
         background: #ff4e4e;    
-        border-top-right-radius: 33%;
       }
 
     .educacion-tarjeta {
@@ -2766,7 +2765,7 @@ nav{
 
       
       .cantact_info {
-        width: 32%;
+        width: 35%;
         position: relative;
         display: flex;
         flex-direction: column;
@@ -2777,7 +2776,7 @@ nav{
         background-position: center center;
         height: 68%;
         margin-left: 60px;
-        margin-top: 100px;
+        margin-top: 50px;
       }
 
       form.form_contact {
@@ -2898,16 +2897,15 @@ form.form_contact {
       }
 
       .info_title h2{
-        font-size: 35px;
+        font-size: 30px;
         text-align: center;
         font-family: "AdihausDIN",Helvetica,Arial,sans-serif;
     }
 
-    form.form_contact input, form.form_contact textarea
-    {
+    form.form_contact input, form.form_contact textarea {
         width: 100%;
         padding: 12px 5px 5px;
-        margin-bottom: 20px;
+        margin-bottom: 12px;
         border: none;
         border-bottom-width: medium;
         border-bottom-style: none;
@@ -2921,14 +2919,15 @@ form.form_contact {
         font-size: 16px;
         font-weight: 500;
         -webkit-text-stroke: 1.0;
-        height: 38px;
+        height: 30px;
       }
 
       form.form_contact {
         width: 47%;
         padding: 30px 40px;
         z-index: 100;
-        margin-top: 12px;
+        margin-top: 50px;
+        justify-content: center;
       }
 
       .form_wrap {
