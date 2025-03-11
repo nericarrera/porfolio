@@ -216,8 +216,6 @@ box-shadow: 1px 1px 500px 90px #2c00ff;
 .conteiner-barra2{
     display: flex;
     width: 65%;
-    height: 40px;
-    background: #1a1a1a;
     border-right: 5%;
     border-bottom-right-radius: 100%;
     border-top-right-radius: -80%;
@@ -1367,8 +1365,7 @@ nav{
     height: 60px;
     justify-content: center;
     margin-left: 15px;
-    border-radius: 10px;
-    margin-top: 20px;   
+    border-radius: 10px; 
 }
 
 .educacion-titulo p {
