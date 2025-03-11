@@ -2423,7 +2423,7 @@ form.form_contact input[type="submit"]:hover {
 
   form.form_contact input,
   form.form_contact textarea {
-    width: 100%;
+    width: 90%;
     padding: 12px 5px 5px;
     margin-bottom: 8px;
     border: none;
@@ -2433,5 +2433,12 @@ form.form_contact input[type="submit"]:hover {
     border-bottom: 2px solid #D1D1D1;
   
   }
+
+  form.form_contact textarea {
+    max-width: 87%;
+    min-width: 90%;
+    max-height: 90px;
+
+}
 
 }
