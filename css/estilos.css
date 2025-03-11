@@ -244,6 +244,7 @@ box-shadow: 1px 1px 500px 90px #2c00ff;
 }
 
 .portada-imagen2-tarjeta{
+  width: 500px;
     display: inline-block;
     justify-content: center;
     align-items: center;
