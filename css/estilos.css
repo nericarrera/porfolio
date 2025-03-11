@@ -1058,7 +1058,7 @@ box-shadow: 1px 1px 500px 90px #2c00ff;
   
   /* Formulario de contacto*/
   form.form_contact{
-    width: 50%;
+    width: 40%;
     padding: 5px;
     z-index: 100;
   }
@@ -1965,7 +1965,7 @@ nav{
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border-radius: 15px;
-    margin-top: -50px;
+    margin-top: -60px;
 }
 
 .conteiner-skills {
@@ -2199,15 +2199,12 @@ nav{
   .form_wrap {
     z-index: 100;
     width: 869px;
-    height: 530px;
-    margin: 50px auto;
-      margin-top: 50px;
+    height: 375px;
     display: flex;
     margin-top: 609px;
     background: #fff;
     border-radius: 10px;
     overflow: hidden;
-    height: 458px;
   }
 
   .footer {
@@ -2332,7 +2329,7 @@ nav{
       }
 
       .cantact_info {
-        width: 32%;
+        width: 38%;
         position: relative;
         display: flex;
         flex-direction: column;
@@ -3113,7 +3110,7 @@ form.form_contact {
         display: flex;
         width: 100%;
         justify-content: center;
-        margin-top: 499px;
+        margin-top: 515px;
       }
 
       .form_wrap {
