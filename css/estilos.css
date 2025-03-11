@@ -4892,6 +4892,7 @@ form.form_contact {
         color: #ffffff;
         text-justify: distribute;
         flex-wrap: wrap;
+        text-align: justify;
       }
 
       .background-portada {
