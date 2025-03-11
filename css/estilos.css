@@ -1410,10 +1410,8 @@ nav{
 .educacion-tarjeta{
     display: inline-block;
     width: 190px;
-    height: 309px;
     background: rgba(225, 225, 225, 0.18);
     border-radius: 10px;
-    margin: 13px;
     justify-content: center;
     text-align: center;
     padding: 5px;
@@ -1428,6 +1426,7 @@ nav{
 
 .educacion-tarjeta:hover{
     transform: translateY(-10px);
+    cursor: pointer;
 }
 
 .educacion-tarjeta-img img:hover  {
