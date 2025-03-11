@@ -1641,7 +1641,6 @@ form.form_contact input[type="submit"]:hover {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height: 400px;
   }
 
   .educacion-tarjeta {
