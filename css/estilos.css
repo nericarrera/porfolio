@@ -816,7 +816,7 @@ nav {
   display: flex;
   width: 100%;
   justify-content: center;
-  margin-top: 1000px;
+  margin-top: 720px;
   background: #f9f8f8;
 }
 
@@ -2033,7 +2033,7 @@ form.form_contact input[type="submit"]:hover {
     height: 530px;
     margin: 50px auto;
     display: flex;
-    margin-top: 1048px;
+    margin-top: 750px;
     background: #fff;
     border-radius: 10px;
     overflow: hidden;
