@@ -2029,7 +2029,7 @@ form.form_contact input[type="submit"]:hover {
 @media screen and (max-width:930px) {
   .form_wrap {
     z-index: 100;
-    width: 838px;
+    width: 700px;
     height: 530px;
     margin: 50px auto;
     display: flex;
