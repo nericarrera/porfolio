@@ -2759,9 +2759,6 @@ nav{
         background-image: url('../fondo.jpg');
         background-size: cover;
         background-position: center center;
-        height: 68%;
-        margin-left: 60px;
-        margin-top: 50px;
       }
 
       form.form_contact {
@@ -2925,24 +2922,18 @@ form.form_contact {
         z-index: 100;
         width: 777px;
         height: 530px;
-        margin: 50px auto;
-        margin-top: 50px;
-        margin-top: 50px;
-        margin-top: 50px;
         display: flex;
         margin-top: 582px;
         background: #fff;
         border-radius: 10px;
         overflow: hidden;
-        height: 458px;
       }
-    
 }
 
-@media screen and (max-width:845px){
-    .header-iconos{
+@media screen and (max-width:845px) {
+   
+  .header-iconos {
         display: none;
-
     }
 
     .educacion-tarjeta {
@@ -3138,14 +3129,12 @@ form.form_contact {
 
       .form_wrap {
         z-index: 100;
-        width: 750px;
-        height: 435px;
+        width: 650px;
         display: flex;
         margin-top: 525px;
         background: #fff;
         border-radius: 10px;
         overflow: hidden;
-        
       }
 
       .cantact_info {
@@ -3158,8 +3147,6 @@ form.form_contact {
         background-image: url('../fondo.jpg');
         background-size: cover;
         background-position: center center;
-        height: 245px;
-        margin-top: 64px;
       }
 
       .info_title h2{
