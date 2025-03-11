@@ -2091,10 +2091,7 @@ nav{
     position: absolute;
     display: flex;
     width: 100%;
-    height: -1px;
     background: #ffffff;
-    background-image: none;
-    background-image: none;
     margin-top: 224px;
     justify-content: center;
     flex-wrap: wrap;
@@ -2220,13 +2217,9 @@ nav{
     height: 70px;
     background: #ffffff;
     z-index: 100;
-    justify-content: center;
-    margin-top: 7px;
-    
+    justify-content: center;    
   }
-
 }
-
 
 @media screen and (max-width:1030px){
     .header-iconos{
