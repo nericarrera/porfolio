@@ -2458,7 +2458,7 @@ nav{
 
       .portada-info p {
         font-family: 'Ysabeau SC', sans-serif;
-        font-size: 16px;
+        font-size: 15px;
         color: #ffffff;
         text-justify: distribute;
         flex-wrap: wrap;
@@ -2510,15 +2510,12 @@ nav{
       .conteiner-educacion {
         width: 100%;
         display: flex;
-        padding: 35px;
+        padding: 5px;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        margin-top: -11px;
-        background: #ff4e4e;
-    height: 345px;
-    
-    border-top-right-radius: 33%;
+        background: #ff4e4e;    
+        border-top-right-radius: 33%;
       }
 
     .educacion-tarjeta {
