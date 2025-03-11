@@ -2338,9 +2338,6 @@ nav{
         background-image: url('../fondo.jpg');
         background-size: cover;
         background-position: center center;
-        height: 68%;
-        margin-left: 38px;
-        margin-top: 32px;
       }
 
     
@@ -3307,8 +3304,6 @@ form.form_contact {
         height: 150px;
         margin-top: -1px;
       }
-
-
 }
 
 @media screen and (max-width:785px){
@@ -3320,8 +3315,7 @@ form.form_contact {
         grid-column: auto;
       }
 
-      .header-iconos-ico
-      {
+      .header-iconos-icono {
           display: flex;
           width: 100%;
           padding: 5px;
@@ -3331,12 +3325,9 @@ form.form_contact {
           flex-wrap: wrap;
         }
 
-
     .header-iconos{
         display: none;
-
     }
-
 
     nav {
         width: 100%;
@@ -3350,7 +3341,6 @@ form.form_contact {
         width: 42%;
         padding: 30px 40px;
         z-index: 100;
-        margin-top: -3px;
       }
     }
     
@@ -3759,16 +3749,12 @@ form.form_contact {
         background-image: url(../fondo.jpg);
         background-size: cover;
         background-position: center center;
-        height: 245px;
-        margin-top: 64px;
-        margin-left: 15px;
     }
 
     form.form_contact {
         width: 45%;
         padding: 30px 40px;
         z-index: 100;
-        margin-top: -5px;
     }
 
     .info_items p {
