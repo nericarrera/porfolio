@@ -2782,10 +2782,9 @@ nav{
   }
 
 form.form_contact {
-    width: 53%;
+    width: 50%;
     padding: 30px 40px;
     z-index: 100;
-    margin-top: 36px;
   }
 
   form.form_contact textarea {
@@ -3123,7 +3122,6 @@ form.form_contact {
         font-family: "AdihausDIN",Helvetica,Arial,sans-serif;
     }
 
-      
         form.form_contact {
           width: 50%;
           padding: 30px 40px;
@@ -3135,7 +3133,6 @@ form.form_contact {
             font-weight: 600;
             color: #f7f7f7;
             margin-bottom: 3px;
-            
           }
 
           form.form_contact input, form.form_contact textarea {
@@ -3167,7 +3164,6 @@ form.form_contact {
 }
 
 @media screen and (max-width:800px){
-
 
     .header{
     display: flex;
