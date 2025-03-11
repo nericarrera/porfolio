@@ -394,8 +394,6 @@ nav {
   border: 1px solid #a1a1a1;
   border-radius: 15px;
   background: #a1a1a150;
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
   margin-top: 15px;
 }
 
