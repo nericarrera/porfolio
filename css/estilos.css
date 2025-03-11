@@ -2156,7 +2156,7 @@ form.form_contact input[type="submit"]:hover {
     align-items: center;
     flex-wrap: wrap;
     margin-top: -11px;
-    background: #ff4e4e;
+    background: rgb(255 255 255 / 0);
     height: 345px;
     border-top-right-radius: 33%;
   }
