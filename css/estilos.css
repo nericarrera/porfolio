@@ -1345,8 +1345,6 @@ form.form_contact input[type="submit"]:hover {
     color: #000000;
     text-decoration: none;
     list-style: none;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
   }
 
   .footer-educacion button:hover {
