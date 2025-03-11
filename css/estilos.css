@@ -2414,8 +2414,6 @@ form.form_contact input[type="submit"]:hover {
     background-size: cover;
     background-position: center center;
     height: 68%;
-    margin-left: 60px;
-    margin-top: 100px;
   }
 
   form.form_contact {
