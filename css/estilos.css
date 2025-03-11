@@ -994,7 +994,7 @@ box-shadow: 1px 1px 500px 90px #2c00ff;
       opacity: 0.9;
   }
   
-  .cantact_info{
+  .cantact_info {
       width: 32%;
       position: relative;
       display: flex;
@@ -1004,9 +1004,6 @@ box-shadow: 1px 1px 500px 90px #2c00ff;
       background-image: url('../fondo.jpg');
       background-size: cover;
       background-position: center center;
-      height: 68%;
-      margin-left: 25px;
-      margin-top: 32px;
   }
   
   .info_title,
@@ -2724,10 +2721,6 @@ nav{
       .form_wrap {
         z-index: 100;
         width: 750px;
-        height: 435px;
-        margin: 50px auto;
-        margin-top: 50px;
-        margin-top: 50px;
         display: flex;
         margin-top: 673px;
         background: #fff;
@@ -2781,17 +2774,11 @@ nav{
 
 .form_wrap {
     z-index: 100;
-    width: 838px;
-    height: 530px;
-    margin: 50px auto;
-    margin-top: 50px;
-    margin-top: 50px;
     display: flex;
     margin-top: 582px;
     background: #fff;
     border-radius: 10px;
     overflow: hidden;
-    height: 458px;
   }
 
 form.form_contact {
@@ -3127,7 +3114,6 @@ form.form_contact {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-image: url('../fondo.jpg');
         background-size: cover;
         background-position: center center;
       }
@@ -3697,19 +3683,11 @@ form.form_contact {
 
     .form_wrap {
         z-index: 100;
-        width: 750px;
-        height: 425px;
-        margin: 29px auto;
-        margin-top: 50px;
-        margin-top: 50px;
-        margin-top: 50px;
+        height: 344px;
         display: flex;
-        margin-left: 45px;
-        margin-top: 490px;
         background: #fff;
         border-radius: 10px;
         overflow: hidden;
-        
     }
 
     .footer-educacion button {
@@ -3746,7 +3724,6 @@ form.form_contact {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-image: url(../fondo.jpg);
         background-size: cover;
         background-position: center center;
     }
