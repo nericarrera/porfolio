@@ -376,6 +376,7 @@ box-shadow: 1px 1px 500px 90px #2c00ff;
 
 .educacion-tarjeta:hover{
     transform: translateY(-10px);
+    cursor: pointer;
 }
 
 .educacion-tarjeta-img img:hover  {
