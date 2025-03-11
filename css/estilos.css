@@ -2391,9 +2391,9 @@ form.form_contact input[type="submit"]:hover {
 
   .form_wrap {
     z-index: 100;
-    width: 750px;
+    width: 700px;
     height: 435px;
-    margin: 50px auto;
+    margin: 0px auto;
     display: flex;
     margin-top: 673px;
     background: #fff;
