@@ -3989,16 +3989,14 @@ form.form_contact {
   .portada-info {
     display: inline-block;
     width: 244px;
-    height: 275px;
-    padding: 26px;
-    border-radius: 10px;
+    padding: 5px;
     justify-content: center;  
     flex-wrap: wrap;
   }
 
   .conteiner-tarjeta {
-    display: flex;
-    /* width: 50%; */
+    display: flex;    
+    width: auto;  
     height: 70%;
     justify-content: center;
     flex-wrap: wrap;
@@ -4508,12 +4506,9 @@ form.form_contact {
   .portada-info {
   display: inline-block;
   width: 244px;
-  height: 256px;
-  padding: 26px;
+  padding: 5px;
   border-radius: 10px;
   justify-content: center;
-  text-justify: distribute;
-  margin-top: -8px;
   flex-wrap: wrap;
 }
 
@@ -4525,7 +4520,6 @@ form.form_contact {
         justify-content: center;
         flex-wrap: wrap;
         margin-top: 4px;
-        text-justify: distribute;
       }
 
       .conteiner-imagen2-tarjeta img
