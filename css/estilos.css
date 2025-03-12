@@ -210,7 +210,6 @@ box-shadow: 1px 1px 500px 90px #2c00ff;
     width: 50%;
     justify-content: center;
     flex-wrap: wrap;
-    margin: auto;
 }
 
 .portada-imagen2-tarjeta {
@@ -1275,22 +1274,16 @@ nav{
 
 .portada-video{
     display: none;
-    
 }
 
 .portada-video video{
     display: none;
-     
 }
 
 .conteiner-tarjeta {
     display: flex;
-    width: 100%;
-    position: absolute;
     justify-content: center;
     flex-wrap: wrap;
-    text-justify: distribute;
-    height: 300px;
   }
    
 /* VIDEO EDUCACION */
@@ -1765,7 +1758,7 @@ nav{
 .conteiner-educacion {
     width: 100%;
     display: flex;
-    padding: 35px;
+    padding: 10px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -1776,9 +1769,7 @@ nav{
         display: inline-block;
         width: 147px;
         height: 210px;
-        background: #4edfff;
         border-radius: 10px;
-        margin-top: 15px;
         justify-content: center;
         text-align: center;
         padding: 5px;
@@ -1786,7 +1777,6 @@ nav{
         border-left: 1px solid #a1a1a1;
         border-top: 1px solid #a1a1a1;
         transition: all 300ms ease;
-        margin-top: 36px;
       }
 
       .educacion-tarjeta-img {
@@ -2203,6 +2193,15 @@ nav{
         flex-wrap: wrap;
         backdrop-filter: blur(5px);
         -webkit-backdrop-filter: blur(5px);
+      }
+
+      .conteiner-imagen2-tarjeta { 
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
       }
     
       .educacion-video video {
