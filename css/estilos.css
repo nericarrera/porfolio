@@ -207,11 +207,9 @@ box-shadow: 1px 1px 500px 90px #2c00ff;
 .conteiner-tarjeta{
     display: flex;
     width: 100%;
-    position: absolute;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 35px;
-    text-justify: distribute;
+    margin: auto;
 }
 
 .portada-imagen2-tarjeta {
