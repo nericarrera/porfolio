@@ -4877,6 +4877,8 @@ form.form_contact {
       }
 
       .portada-imagen2-tarjeta {
+        width: 220px;
+        height: 185px;
         display: inline-block;
         justify-content: center;
         align-items: center;
@@ -4993,12 +4995,9 @@ form.form_contact {
   display: none;
 }
 
-.portada-info
-{
+.portada-info {
     display: inline-block;
-    width: 331px;
-    height: 230px;
-    padding: 17px;
+    padding: 10px;
     border-radius: 10px;
     justify-content: center;
     text-justify: distribute;
