@@ -2348,8 +2348,6 @@ nav{
         margin-top: 582px;
         background: #fff;
         border-radius: 10px;
-        overflow: hidden;
-        justify-content: center;
       }
 
     form.form_contact {
@@ -3796,17 +3794,9 @@ form.form_contact {
         z-index: 100;
         width: 699px;
         height: 435px;
-        margin: 29px auto;
-        margin-top: 50px;
-        margin-top: 50px;
-        margin-top: 50px;
         display: flex;
-        margin-left: 45px;
         margin-top: 468px;
-        background: #fff;
-        border-radius: 10px;
-        overflow: hidden;
-        
+        background: #fff;        
     }
 
     form.form_contact
@@ -4083,16 +4073,9 @@ form.form_contact {
         z-index: 100;
         width: 683px;
         height: 337px;
-        margin: 29px auto;
-        margin-top: 50px;
-        margin-top: 50px;
-        margin-top: 50px;
         display: flex;
-        margin-left: 45px;
         margin-top: 468px;
         background: #fff;
-        border-radius: 10px;
-        overflow: hidden;
     }
     
     form.form_contact {
@@ -4298,13 +4281,10 @@ form.form_contact {
         z-index: 100;
         width: 683px;
         height: 401px;
-        margin-left: auto;
         display: flex;
-        margin-left: 45px;
         margin-top: 468px;
         background: #fff;
         border-radius: 10px;
-        overflow: hidden;
       }
 
 }
@@ -4538,8 +4518,6 @@ form.form_contact {
         width: 41%;
         padding: 30px 40px;
         z-index: 100;
-        margin-top: 15px;
-        margin-left: 74px;
       }
 
       .contacto-background
@@ -4614,20 +4592,14 @@ form.form_contact {
           width: 41%;
           padding: 30px 40px;
           z-index: 100;
-          margin-top: 15px;
-          margin-left: 115px;
         }
 
-      .form_wrap
-      {
+      .form_wrap {
           z-index: 100;
           width: 679px;
           height: 397px;
-          margin-left: auto;
           display: flex;
           margin-top: 431px;
-          border-radius: 10px;
-          overflow: hidden;
         }
   
         form.form_contact h2 {
@@ -4917,8 +4889,6 @@ form.form_contact {
     width: 41%;
     padding: 30px 40px;
     z-index: 100;
-    margin-top: 15px;
-    margin-left: 89px;
   }
 
 }
@@ -4943,8 +4913,6 @@ form.form_contact {
           width: 41%;
           padding: 30px 40px;
           z-index: 100;
-          margin-top: -5px;
-          margin-left: 70px;
         }
 
         .conteiner-experiencia-laboral
@@ -5159,9 +5127,6 @@ form.form_contact {
  width: 41%;
  padding: 30px 40px;
  z-index: 100;
- margin-top: -7px;
- margin-left: 56px;
-
 }
     
 }
@@ -5307,8 +5272,6 @@ form.form_contact {
         width: 41%;
         padding: 30px 40px;
         z-index: 100;
-        margin-top: -18px;
-        margin-left: 39px;
       }
 
       .tarjeta-proyecto1
