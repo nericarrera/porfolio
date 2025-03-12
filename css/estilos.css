@@ -175,7 +175,8 @@ nav{
     flex-wrap: wrap;
     background: #1a1a1a;
     height: 500px;
-    border-bottom-right-radius: 35%;      
+    border-bottom-right-radius: 35%; 
+    justify-content: center;     
 }
 
 /*-------------- BARRA 1 - EDUCACION ------------------*/
@@ -249,7 +250,7 @@ box-shadow: 1px 1px 500px 90px #2c00ff;
 
 .portada-info{
     display: inline-block;
-    padding: 5px;
+    padding: 10px;
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
