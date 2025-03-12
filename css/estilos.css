@@ -20,8 +20,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    
-
 }
 
 .main{
@@ -36,18 +34,14 @@
     width: 100%;
     background: #1a1a1a;
     flex-wrap: wrap;
-    justify-content: center;
-      
+    justify-content: center;   
 }
 
 .header-iconos{
     display: none;
-
 }
 
-
-/* NAVEGADOR */
-
+/*---------------- NAVEGADOR ------------------*/
 .abrir-menu{
     display: none;
 }
@@ -60,7 +54,6 @@
   display: none;
   transition: transform 0.3s ease-in-out;
   transform: translateX(100%);
-
 }
 
 .navmenu.visible {
@@ -77,9 +70,7 @@ nav{
    grid-row: auto;
 }
 
-
-/* LOGO */
-
+/*----------------- LOGO ------------------------*/
 .logo{
     width: 250px;
     height: 50px;
@@ -91,7 +82,6 @@ nav{
     flex-wrap: wrap;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    
 }
 
 .logo p{
@@ -99,8 +89,7 @@ nav{
     font-size: 18px;
     color: #f0f0f0;
     font-weight: 500;
-    font-family: 'Roboto', sans-serif;
-    
+    font-family: 'Roboto', sans-serif; 
 }
 
 .logo p:hover{
@@ -109,8 +98,7 @@ nav{
     cursor: pointer;
 }
 
-/* ICONOS */
-
+/*------------------- ICONOS ------------------------*/
 .conteiner-iconos{
     display: flex; 
     justify-content: space-between;
@@ -125,8 +113,6 @@ nav{
     padding: 5px;
     justify-content: center;
     flex-wrap: wrap;
-    
-    
 }
 
 .iconos img{
@@ -134,8 +120,7 @@ nav{
     width: 30px;
     cursor: pointer;
     margin: 3px;
-    flex-wrap: wrap;
-       
+    flex-wrap: wrap;   
 }
 
 .iconos img:hover{
@@ -148,14 +133,11 @@ nav{
     display: flex;
     width: auto;
     flex-wrap: wrap;
-    
-
 }
 
 .conteiner-menu ul{
     display: flex;
     text-align: center;
-    
 }
 
 .conteiner-menu li{
@@ -165,7 +147,6 @@ nav{
     font-size: 15px;
     color: #1a1a1a;
     justify-content: center;
-
 }
 
 .conteiner-menu ul li{
@@ -181,39 +162,32 @@ nav{
     transition: 400ms ease;
     cursor: pointer;
     background-color: #1a1a1a;
-    
 }
 
 .conteiner-menu ul a {
     text-decoration: none;
 }
 
-
-/* PORTADA */
-
+/*---------------- PORTADA -------------------*/
 .background-portada {  
     display: flex;
     width: 100%;
     flex-wrap: wrap;
     background: #1a1a1a;
     height: 500px;
-    border-bottom-right-radius: 35%;
-        
+    border-bottom-right-radius: 35%;      
 }
 
-
-/* BARRA 1 - EDUCACION */
-
-.conteiner-barra1{
+/*-------------- BARRA 1 - EDUCACION ------------------*/
+.conteiner-barra1 {
 display: flex;
 width: 100%;
 justify-content: center;
 background: #000000;
 box-shadow: 1px 1px 500px 90px #2c00ff;
-
 }
 
-.conteiner-barra2{
+.conteiner-barra2 {
     display: flex;
     width: 65%;
     border-right: 5%;
@@ -229,9 +203,7 @@ box-shadow: 1px 1px 500px 90px #2c00ff;
     margin-bottom: 15px;
 }
 
-
-/* TARJETA DE PRESENTACION */
-
+/*------------------- TARJETA DE PRESENTACION ------------------*/
 .conteiner-tarjeta{
     display: flex;
     width: 100%;
@@ -240,11 +212,11 @@ box-shadow: 1px 1px 500px 90px #2c00ff;
     flex-wrap: wrap;
     margin-top: 35px;
     text-justify: distribute;
-    
 }
 
-.portada-imagen2-tarjeta{
-  width: 500px;
+.portada-imagen2-tarjeta {
+    width: 100%; /* Cambia de 500px a 100% */
+    max-width: 100%; 
     display: inline-block;
     justify-content: center;
     align-items: center;
@@ -253,7 +225,7 @@ box-shadow: 1px 1px 500px 90px #2c00ff;
     flex-wrap: wrap;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-
+    box-shadow: 5px 5px 20px 2px #4f1fe1dd;
 }
 
 .conteiner-imagen2-tarjeta{
@@ -270,7 +242,6 @@ box-shadow: 1px 1px 500px 90px #2c00ff;
     padding: 15px;
     flex-wrap: wrap;
     object-fit: cover;
-    
 }
 
 .conteiner-imagen2-tarjeta img:hover{
@@ -284,7 +255,6 @@ box-shadow: 1px 1px 500px 90px #2c00ff;
     justify-content: center;
     flex-wrap: wrap;
     text-align: center;
-
 }
 
 .portada-info p{
@@ -311,7 +281,6 @@ box-shadow: 1px 1px 500px 90px #2c00ff;
     margin-left: 15px;
     border-radius: 10px;
     margin-top: 15px;
-    
 }
 
 .educacion-titulo p{
@@ -324,7 +293,6 @@ box-shadow: 1px 1px 500px 90px #2c00ff;
     box-shadow: 5px 5px 5px;
     justify-content: center;
     border-radius: 10px;
-    
 }
 
 .educacion-titulo:hover{
