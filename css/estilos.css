@@ -208,8 +208,10 @@ box-shadow: 1px 1px 500px 90px #2c00ff;
 .conteiner-tarjeta{
     display: flex;
     width: 50%;
+    height: 70%;
     justify-content: center;
     flex-wrap: wrap;
+    margin: auto;
 }
 
 .portada-imagen2-tarjeta {
@@ -1284,6 +1286,7 @@ nav{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    height: auto;
   }
    
 /* VIDEO EDUCACION */
@@ -2184,8 +2187,14 @@ nav{
     background: #1a1a1a;
   }
 
+  .conteiner-tarjeta {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
     .portada-imagen2-tarjeta {
-        display: inline-block;
+        display: flex;
         justify-content: center;
         align-items: center;
         background: rgba(110, 110, 110, 0.199);
@@ -2196,7 +2205,12 @@ nav{
       }
 
       .conteiner-imagen2-tarjeta { 
-        display: none;
+        display: flex;
+      }
+
+      .conteiner-imagen2-tarjeta img {
+        width: 100%;
+        transition: all 300ms;
       }
 
       .footer {
@@ -3370,7 +3384,6 @@ form.form_contact {
     .background-portada {
         display: flex;
         width: 100%;
-        height: 340px;
         flex-wrap: wrap;
         background: #1a1a1a;
         border-bottom-right-radius: 35%;
@@ -3969,11 +3982,7 @@ form.form_contact {
         z-index: 100;
         margin-top: 14px;
       }
-
-
-
 }
-
 
 @media screen and (max-width:600px){
 
@@ -3983,17 +3992,23 @@ form.form_contact {
     height: 275px;
     padding: 26px;
     border-radius: 10px;
-    justify-content: center;
-    text-justify: distribute;
-    margin-top: -64px;
+    justify-content: center;  
     flex-wrap: wrap;
   }
+
+  .conteiner-tarjeta {
+    display: flex;
+    /* width: 50%; */
+    height: 70%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
 
   .portada-info p {
     font-family: 'Ysabeau SC', sans-serif;
     font-size: 15px;
     color: #ffffff;
-    text-justify: distribute;
     flex-wrap: wrap;
   }
 
@@ -4001,13 +4016,13 @@ form.form_contact {
   .conteiner-imagen2-tarjeta img {
     display: flex;
     justify-content: center;
-    margin-left: -30px;
     width: 162px;
     height: 159px;
     border-radius: 100%;
-    padding: 20px;
+    padding: 10px;
     flex-wrap: wrap;
   }
+
 
     .tarjeta-proyecto1 {
         width: 222px;
