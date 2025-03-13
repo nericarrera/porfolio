@@ -383,6 +383,11 @@ nav {
   color: #000000;
 }
 
+.educacion-texto-parrafo {
+  display: flex;
+  margin: auto;
+}
+
 .educacion-texto b {
   display: flex;
   justify-content: center;
