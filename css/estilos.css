@@ -4880,7 +4880,15 @@ form.form_contact {
 @media screen and (max-width:385px) {
 
   .portada-imagen2-tarjeta {
-    width: 90%;
+    max-width: 100%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+  .portada-imagen2-tarjeta {
     max-width: 100%;
     display: inline-block;
     justify-content: center;
