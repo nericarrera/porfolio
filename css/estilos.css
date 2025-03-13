@@ -268,8 +268,14 @@ nav {
   transition: all 450ms ease;
 }
 
+/*----------------- FORMACION -------------------*/
+
+.conteiner-educacion-titulo {
+  display: inline;
+  width: 100%;
+}
+
 .educacion-titulo {
-  position: absolute;
   color: #c9c9c9;
   font-family: "Ysabeau SC", sans-serif;
   justify-content: center;
@@ -315,10 +321,9 @@ nav {
 .educacion-tarjeta {
   display: inline-block;
   width: 190px;
-  height: 315px;
   background: rgba(225, 225, 225, 0.654);
   border-radius: 10px;
-  margin: 22px;
+  margin: 15px;
   justify-content: center;
   text-align: center;
   padding: 5px;
@@ -1629,7 +1634,6 @@ form.form_contact input[type="submit"]:hover {
   }
 
   .educacion-titulo {
-    position: absolute;
     color: #fbfbfb;
     font-family: "Ysabeau SC", sans-serif;
     justify-content: center;
