@@ -3976,7 +3976,6 @@ form.form_contact {
 
   .portada-info {
     display: inline-block;
-    width: 244px;
     padding: 5px;
     justify-content: center;  
     flex-wrap: wrap;
@@ -4867,8 +4866,7 @@ form.form_contact {
               color: rgb(221, 221, 228);
             }
 
-            .tarjeta-proyecto2
-{
+  .tarjeta-proyecto2 {
     width: 149px;
     border-radius: 10px;
     margin: 10px;
@@ -4876,15 +4874,13 @@ form.form_contact {
     justify-content: center;
     color: rgb(221, 221, 228);
   }
-
 }
-
 
 
 @media screen and (max-width:385px) {
 
   .portada-imagen2-tarjeta {
-    width: 100%;
+    width: 90%;
     max-width: 100%;
     display: inline-block;
     justify-content: center;
