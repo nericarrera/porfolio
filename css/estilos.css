@@ -386,6 +386,7 @@ nav {
 .educacion-texto-parrafo {
   display: flex;
   margin: auto;
+  justify-content: center;
 }
 
 .educacion-texto b {
