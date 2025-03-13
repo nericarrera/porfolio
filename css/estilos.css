@@ -383,6 +383,11 @@ nav {
   color: #000000;
 }
 
+.educacion-texto b {
+  display: flex;
+  justify-content: center;
+}
+
 .footer-educacion {
   display: flex;
   justify-content: center;
@@ -426,7 +431,7 @@ nav {
   -webkit-text-stroke: 0.2px #000000;
 }
 
-/* TITULO SKILS */
+/*------------------------ TITULO SKILS ------------------ */
 
 .conteiner-skills-titulo {
   display: flex;
@@ -1312,7 +1317,7 @@ form.form_contact input[type="submit"]:hover {
 
   .educacion-tarjeta-img {
     display: flex;
-    height: 130px;
+    height: 125px;
     justify-content: center;
     overflow: hidden;
     object-fit: cover;
