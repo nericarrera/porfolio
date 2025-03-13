@@ -3790,7 +3790,6 @@ form.form_contact input[type="submit"]:hover {
 
   form.form_contact {
     width: 42%;
-    padding: 30px 40px;
     z-index: 100;
     margin-right: 100px;
   }
@@ -3847,7 +3846,6 @@ form.form_contact input[type="submit"]:hover {
 
   form.form_contact {
     width: 35%;
-    padding: 30px 40px;
     z-index: 100;
     margin-top: 15px;
   }
@@ -4264,7 +4262,6 @@ form.form_contact input[type="submit"]:hover {
 
   form.form_contact {
     width: 41%;
-    padding: 30px 40px;
     z-index: 100;
   }
 
@@ -4320,7 +4317,6 @@ form.form_contact input[type="submit"]:hover {
 
   form.form_contact {
     width: 41%;
-    padding: 30px 40px;
     z-index: 100;
   }
 
