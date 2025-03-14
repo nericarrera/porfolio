@@ -57,6 +57,7 @@ body {
 }
 
 .navmenu {
+  display: none;
   position: fixed; /* Fija el menú en la pantalla */
   top: 0;
   right: 0;
