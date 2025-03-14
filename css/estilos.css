@@ -20,6 +20,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  overflow-x: hidden; /* Evita el desbordamiento horizontal */
+}
+
 .main {
   width: 100%;
   height: 100%;
@@ -41,7 +45,11 @@
 
 /*---------------- NAVEGADOR ------------------*/
 .abrir-menu {
-  display: none;
+  display: none; /* Oculto por defecto */
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
 }
 
 .desarrollador-movile {
@@ -49,13 +57,67 @@
 }
 
 .navmenu {
-  display: none;
+  position: fixed; /* Fija el menú en la pantalla */
+  top: 0;
+  right: 0;
+  width: 100%; /* Ocupa toda la pantalla en móviles */
+  max-width: 300px; /* Ancho máximo para pantallas más grandes */
+  height: 100vh; /* Altura completa de la pantalla */
+  background: #333; /* Fondo del menú */
+  transform: translateX(100%); /* Oculta el menú fuera de la pantalla */
   transition: transform 0.3s ease-in-out;
-  transform: translateX(100%);
+  z-index: 1000; /* Asegura que esté por encima de otros elementos */
 }
 
 .navmenu.visible {
-  transform: translateX(0);
+  transform: translateX(0); /* Muestra el menú */
+}
+
+.nav-list {
+  list-style: none;
+  padding: 20px;
+}
+
+.nav-list li {
+  margin-bottom: 15px;
+}
+
+.nav-list a {
+  color: white; /* Color del texto */
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Botón para cerrar el menú */
+.cerrar-menu {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* Desarrollador móvil */
+.desarrollador-movile {
+  display: none; /* Oculto por defecto */
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+}
+
+/* Media Queries para móviles */
+@media (max-width: 768px) {
+  .abrir-menu {
+    display: block; /* Muestra el botón en móviles */
+  }
+
+  .desarrollador-movile {
+    display: block; /* Muestra el desarrollador en móviles */
+  }
 }
 
 nav {
@@ -272,6 +334,7 @@ nav {
 .conteiner-educacion-titulo {
   display: inline-block;
   width: 35%;
+  height: 55px;
   margin-bottom: 9px;
 }
 
@@ -439,10 +502,11 @@ nav {
 
 .conteiner-skills-titulo {
   display: flex;
-  width: 99%;
+  width: 93.5%;
   background: #220e82;
   height: 115px;
   margin-top: 5px;
+  border-top-right-radius: 25%;
 }
 
 .skills-titulo {
@@ -604,7 +668,6 @@ nav {
   width: 100%;
   height: 140px;
   background: #1a1a1a;
-  border-right: 8px solid #ffffff;
   margin-top: 5px;
 }
 
@@ -655,7 +718,6 @@ nav {
   display: flex;
   justify-content: center;
   background-color: #1a1a1a;
-  border-right: 8px solid #ffffff;
   border-bottom-right-radius: 80%;
 }
 
@@ -881,7 +943,7 @@ nav {
 
 .contacto-background video {
   position: absolute;
-  width: 95%;
+  width: 88%;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border-top-left-radius: 11%;
@@ -900,14 +962,13 @@ nav {
 
 .form_wrap {
   z-index: 100;
-  width: 900px;
-  height: 530px;
-  margin: 50px auto;
   display: flex;
   margin-top: 1140px;
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
+  justify-content: center;
+  gap: 15px;
 }
 
 /* Informacion de Contacto*/
@@ -919,7 +980,6 @@ nav {
   position: absolute;
   top: 0;
   left: 0;
-  background: #4091ec;
   opacity: 0.9;
 }
 
@@ -982,7 +1042,7 @@ nav {
 
 /* Formulario de contacto*/
 form.form_contact {
-  width: 40%;
+  width: 35%;
   padding: 5px;
   z-index: 100;
 }
@@ -992,6 +1052,7 @@ form.form_contact h2 {
   font-weight: 600;
   color: #f7f7f7;
   margin-bottom: 2px;
+  text-align: center;
 }
 
 form.form_contact .user_info {
@@ -1008,21 +1069,21 @@ form.form_contact label {
 
 form.form_contact input,
 form.form_contact textarea {
-  width: 100%;
+  width: 90%;
   padding: 12px 5px 5px;
   margin-bottom: 8px;
   border: none;
   border-bottom: 2px solid #d1d1d1;
   font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
   color: #0e0e0e;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
   -webkit-text-stroke: 1;
 }
 
 form.form_contact textarea {
-  max-width: 100%;
-  min-width: 100%;
+  max-width: 90%;
+  min-width: 90%;
   max-height: 90px;
 }
 
@@ -1033,7 +1094,7 @@ form.form_contact input[type="submit"] {
   padding: 10px;
   border: none;
   border-radius: 25px;
-  align-self: flex-end;
+  align-self: center;
   color: #fff;
   font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
   font-size: 15px;
@@ -1135,7 +1196,7 @@ form.form_contact input[type="submit"]:hover {
   list-style: none;
   font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
   font-weight: 600;
-  color: #1a1a1a;
+  color: #2196f3;
 }
 
 .footer-desarrollador p:hover {
@@ -1250,7 +1311,6 @@ form.form_contact input[type="submit"]:hover {
   /* titulo educacion */
 
   .educacion-titulo {
-    position: absolute;
     color: #fbfbfb;
     font-family: "Ysabeau SC", sans-serif;
     justify-content: center;
@@ -1430,7 +1490,7 @@ form.form_contact input[type="submit"]:hover {
 
   .conteiner-skills {
     display: flex;
-    width: 100%;
+    width: 93.5%;
     height: 410px;
     justify-content: center;
     flex-wrap: wrap;
@@ -1439,7 +1499,6 @@ form.form_contact input[type="submit"]:hover {
 
   .presentacion-tarjeta-skills {
     display: flex;
-    width: 147px;
     height: 275px;
     background: rgb(206, 206, 206);
     border-radius: 15px;
@@ -1449,7 +1508,6 @@ form.form_contact input[type="submit"]:hover {
     border-left: 1.5px solid #a1a1a1;
     border-top: 1.5px solid #a1a1a1;
     box-shadow: -9px -12px 11px #6454d2;
-    margin-top: 20px;
   }
 
   .presentacion-tarjeta-skills:hover {
@@ -1542,7 +1600,7 @@ form.form_contact input[type="submit"]:hover {
   }
 
   .conteiner-titulo-proyecto {
-    width: 100%;
+    width: 93.5%;
     height: 160px;
     background: #1a1a1a;
     margin-top: 5px;
@@ -1564,8 +1622,7 @@ form.form_contact input[type="submit"]:hover {
   }
 
   .conteiner-proyecto {
-    position: absolute;
-    width: 100%;
+    width: 93.5%;
     flex-wrap: wrap;
     z-index: 100;
     display: flex;
@@ -2280,7 +2337,6 @@ form.form_contact input[type="submit"]:hover {
   }
 
   .educacion-titulo {
-    position: absolute;
     color: #c9c9c9;
     font-family: "Ysabeau SC", sans-serif;
     justify-content: center;
@@ -2341,7 +2397,6 @@ form.form_contact input[type="submit"]:hover {
     display: flex;
     width: 100%;
     background: #1b116c;
-    border-right: 8px solid #ffffff;
     height: 115px;
   }
 
@@ -2370,14 +2425,11 @@ form.form_contact input[type="submit"]:hover {
   .conteiner-skills {
     display: flex;
     width: 100%;
-    height: 371px;
     justify-content: center;
     flex-wrap: wrap;
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
-    z-index: 100;
     background-image: linear-gradient(#ffffff38, #000000);
-    margin-top: -75px;
     background: #1b116c;
   }
 
@@ -2388,13 +2440,10 @@ form.form_contact input[type="submit"]:hover {
     background: rgb(206, 206, 206);
     border-radius: 15px;
     justify-content: center;
-    margin-right: 20px;
     flex-wrap: wrap;
     border-left: 1.5px solid #a1a1a1;
     border-top: 1.5px solid #a1a1a1;
     box-shadow: 5px 5px 10px #000000;
-    z-index: 1000;
-    margin-top: 105px;
   }
 
   .conteiner-titulo-proyecto {
@@ -2700,20 +2749,7 @@ form.form_contact input[type="submit"]:hover {
   }
 
   form.form_contact {
-    width: 47%;
-    padding: 30px 40px;
-    z-index: 100;
     justify-content: center;
-  }
-
-  .form_wrap {
-    z-index: 100;
-    width: 777px;
-    display: flex;
-    margin-top: 582px;
-    background: #fff;
-    border-radius: 10px;
-    overflow: hidden;
   }
 }
 
@@ -2774,19 +2810,16 @@ form.form_contact input[type="submit"]:hover {
 
   .conteiner-skills-titulo {
     width: 100%;
-    height: 145px;
     background: #220e82;
   }
 
   .conteiner-skills {
     display: flex;
     width: 100%;
-    height: 350px;
     justify-content: center;
     flex-wrap: wrap;
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
-    z-index: 100;
     background-image: linear-gradient(#ffffff38, #000000);
     background: #220e82;
   }
@@ -3042,34 +3075,27 @@ form.form_contact input[type="submit"]:hover {
 
   .conteiner-skills-titulo {
     width: 100%;
-    height: 171px;
     background: #220e82;
   }
 
   .conteiner-skills {
     display: flex;
     width: 100%;
-    height: 226px;
     justify-content: center;
     flex-wrap: wrap;
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
-    z-index: 100;
     background-image: linear-gradient(#ffffff38, #000000);
     background: #23107b;
   }
 
   .presentacion-tarjeta-skills {
     display: flex;
-    width: 88px;
     height: 105px;
     background: rgba(206, 206, 206, 0);
     border-radius: 60px;
     justify-content: center;
-    margin-right: 8px;
     flex-wrap: wrap;
-    z-index: 1000;
-    margin-top: 6px;
   }
 
   .img-proyecto1 {
@@ -3394,7 +3420,6 @@ form.form_contact input[type="submit"]:hover {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background: #ff4e4e;
     border-top-right-radius: 33%;
   }
 
@@ -3402,7 +3427,6 @@ form.form_contact input[type="submit"]:hover {
     display: inline-block;
     width: 109px;
     height: 137px;
-    background: rgb(0, 208, 255);
     border-radius: 10px;
     margin: 3px;
     justify-content: center;
@@ -3462,9 +3486,6 @@ form.form_contact input[type="submit"]:hover {
     border-bottom: 1px solid #a1a1a1;
     border-radius: 15px;
     background: #a1a1a150;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    margin-top: 8px;
   }
 
   .info_title h2 {
@@ -3612,7 +3633,6 @@ form.form_contact input[type="submit"]:hover {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    background: #1a1a1a;
   }
 
   .educacion-tarjeta {
@@ -4196,12 +4216,10 @@ form.form_contact input[type="submit"]:hover {
   .conteiner-skills {
     display: flex;
     width: 100%;
-    height: 313px;
     justify-content: center;
     flex-wrap: wrap;
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
-    z-index: 100;
     background-image: linear-gradient(#ffffff38, #000000);
     background: #23107b;
   }

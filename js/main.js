@@ -1,7 +1,4 @@
 
-
-
-
 const navmenu = document.querySelector("#navmenu");
 const abrir = document.querySelector("#abrir");
 const cerrar = document.querySelector("#cerrar");
