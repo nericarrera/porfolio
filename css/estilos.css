@@ -271,9 +271,8 @@ nav {
 
 .conteiner-educacion-titulo {
   display: inline-block;
-  width: 50%;
-  height: 20px;
-  margin-bottom: 5px;
+  width: 35%;
+  margin-bottom: 9px;
 }
 
 .educacion-titulo {
@@ -308,7 +307,7 @@ nav {
 /*------------ TITULO EDUCACION ------------------*/
 
 .conteiner-educacion {
-  width: 100%;
+  width: 99%;
   display: flex;
   padding: 15px;
   justify-content: center;
@@ -392,6 +391,7 @@ nav {
 .educacion-texto b {
   display: flex;
   justify-content: center;
+  margin: auto;
 }
 
 .footer-educacion {
@@ -423,8 +423,6 @@ nav {
   color: #000000;
   text-decoration: none;
   list-style: none;
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
 }
 
 .footer-educacion button:hover {
@@ -441,9 +439,8 @@ nav {
 
 .conteiner-skills-titulo {
   display: flex;
-  width: 100%;
+  width: 99%;
   background: #220e82;
-  border-right: 8px solid #ffffff;
   height: 115px;
   margin-top: 5px;
 }
@@ -491,7 +488,6 @@ nav {
   flex-wrap: wrap;
   background: linear-gradient(#f8f8f8ad, #000000e7);
   background: #220e82;
-  border-right: 8px solid #ffffff;
 }
 
 .presentacion-tarjeta-skills {
@@ -1178,7 +1174,7 @@ form.form_contact input[type="submit"]:hover {
 @media screen and (max-width: 1360px) {
   .conteiner-skills {
     display: flex;
-    width: 100%;
+    width: 99%;
     height: 315px;
     justify-content: center;
     flex-wrap: wrap;
@@ -1287,7 +1283,7 @@ form.form_contact input[type="submit"]:hover {
   .conteiner-educacion {
     width: 100%;
     display: flex;
-    padding: 35px;
+    padding: 10px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -1386,8 +1382,6 @@ form.form_contact input[type="submit"]:hover {
     color: #000000;
     text-decoration: none;
     list-style: none;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
   }
 
   .footer-educacion button:hover {
@@ -1708,7 +1702,7 @@ form.form_contact input[type="submit"]:hover {
 
   .educacion-texto {
     width: 135px;
-    height: 180px;
+    height: 48px;
     flex-wrap: wrap;
     display: flex;
     margin-top: 4px;
@@ -1739,7 +1733,6 @@ form.form_contact input[type="submit"]:hover {
     background: #a1a1a150;
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
-    margin-top: -124px;
   }
 
   .conteiner-skills-titulo {
@@ -2331,14 +2324,13 @@ form.form_contact input[type="submit"]:hover {
   .educacion-tarjeta {
     display: inline-block;
     width: 147px;
-    height: 165px;
-    background: rgb(0, 208, 255);
+    background: rgb(255, 255, 255);
     border-radius: 10px;
     margin-top: 15px;
     justify-content: center;
     text-align: center;
     padding: 5px;
-    box-shadow: -10px -10px 10px 0px #1709b9bf;
+    box-shadow: -4px -4px 3px 1px #1709b9bf;
     border-left: 1px solid #a1a1a1;
     border-top: 1px solid #a1a1a1;
     transition: all 300ms ease;
@@ -2733,14 +2725,13 @@ form.form_contact input[type="submit"]:hover {
   .educacion-tarjeta {
     display: inline-block;
     width: 135px;
-    height: 140px;
-    background: rgb(0, 208, 255);
+    background: rgb(255, 255, 255);
     border-radius: 10px;
     margin-top: 15px;
     justify-content: center;
     text-align: center;
     padding: 5px;
-    box-shadow: -10px -10px 10px 0px #1709b9bf;
+    box-shadow: -4px -4px 3px 1px #1709b9bf;
     border-left: 1px solid #a1a1a1;
     border-top: 1px solid #a1a1a1;
     transition: all 300ms ease;
@@ -2757,7 +2748,6 @@ form.form_contact input[type="submit"]:hover {
 
   .educacion-texto {
     width: 123px;
-    height: 170px;
     flex-wrap: wrap;
     display: flex;
     margin-top: 4px;
@@ -2780,9 +2770,6 @@ form.form_contact input[type="submit"]:hover {
     border-bottom: 1px solid #a1a1a1;
     border-radius: 15px;
     background: #a1a1a150;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    margin-top: -164px;
   }
 
   .conteiner-skills-titulo {
@@ -2807,14 +2794,11 @@ form.form_contact input[type="submit"]:hover {
   .presentacion-tarjeta-skills {
     display: flex;
     width: 97px;
-    height: 105px;
     background: rgba(206, 206, 206, 0);
     border-radius: 60px;
     justify-content: center;
     margin-right: 20px;
     flex-wrap: wrap;
-    z-index: 1000;
-    margin-top: 30px;
   }
 
   .tarjeta-img {
@@ -3035,8 +3019,7 @@ form.form_contact input[type="submit"]:hover {
   .educacion-tarjeta {
     display: inline-block;
     width: 130px;
-    height: 140px;
-    background: rgb(0, 208, 255);
+    background: rgb(255, 255, 255);
     border-radius: 10px;
     margin-top: 15px;
     justify-content: center;
@@ -3304,10 +3287,8 @@ form.form_contact input[type="submit"]:hover {
   .educacion-tarjeta {
     display: inline-block;
     width: 115px;
-    height: 140px;
-    background: rgb(0, 208, 255);
+    background: rgb(255, 255, 255);
     border-radius: 10px;
-    margin-top: 15px;
     justify-content: center;
     text-align: center;
     padding: 5px;
@@ -3328,7 +3309,6 @@ form.form_contact input[type="submit"]:hover {
 
   .educacion-texto {
     width: 104px;
-    height: 170px;
     flex-wrap: wrap;
     display: flex;
     margin-top: 4px;
@@ -3425,7 +3405,6 @@ form.form_contact input[type="submit"]:hover {
     background: rgb(0, 208, 255);
     border-radius: 10px;
     margin: 3px;
-    margin-top: 15px;
     justify-content: center;
     text-align: center;
     padding: 5px;
@@ -3435,7 +3414,6 @@ form.form_contact input[type="submit"]:hover {
     border-left: 1px solid #a1a1a1;
     border-top: 1px solid #a1a1a1;
     transition: all 300ms ease;
-    margin-top: 36px;
   }
 
   .educacion-tarjeta-img {
@@ -3628,13 +3606,12 @@ form.form_contact input[type="submit"]:hover {
   }
 
   .conteiner-educacion {
-    width: 100%;
+    width: 98%;
     display: flex;
     padding: 10px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 0px;
     background: #1a1a1a;
   }
 
@@ -4683,9 +4660,6 @@ form.form_contact input[type="submit"]:hover {
     height: 97px;
     background: rgba(225, 225, 225, 0.18);
     border-radius: 10px;
-    margin: 4px;
-    margin-top: 4px;
-    margin-top: 20px;
     justify-content: center;
     text-align: center;
     padding: 3px;
@@ -4695,18 +4669,15 @@ form.form_contact input[type="submit"]:hover {
     border-left: 1px solid #a1a1a1;
     border-top: 1px solid #a1a1a1;
     transition: all 300ms ease;
-    margin-top: 22px;
   }
 
   .conteiner-educacion {
     width: 100%;
     display: flex;
-    padding: 44px;
+    padding: 5px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 0px;
-    height: 379px;
   }
 
   .tarjeta-proyecto1 {
@@ -4782,12 +4753,6 @@ form.form_contact input[type="submit"]:hover {
     border-radius: 10px;
   }
 
-  .conteiner-skills-titulo {
-    width: 100%;
-    height: 176px;
-    background: #1a1a1a;
-  }
-
   .skills-titulo {
     position: absolute;
     display: flex;
@@ -4814,7 +4779,6 @@ form.form_contact input[type="submit"]:hover {
   .conteiner-skills {
     display: flex;
     width: 100%;
-    height: 331px;
     justify-content: center;
     flex-wrap: wrap;
     backdrop-filter: blur(2px);
@@ -4825,14 +4789,11 @@ form.form_contact input[type="submit"]:hover {
   .educacion-tarjeta {
     display: inline-block;
     width: 110px;
-    height: 85px;
     border-radius: 10px;
-    margin: 4px;
     justify-content: center;
     text-align: center;
     padding: 3px;
     transition: all 300ms ease;
-    margin-top: 18px;
   }
 
   .educacion-tarjeta-img {
@@ -4850,10 +4811,7 @@ form.form_contact input[type="submit"]:hover {
     background: rgb(22, 178, 204);
     border-radius: 60px;
     justify-content: center;
-    margin-right: 10px;
     flex-wrap: wrap;
-    z-index: 1000;
-    margin-top: 1px;
     box-shadow: 1px 1px 10px 1px #000000;
   }
 
@@ -4943,7 +4901,6 @@ form.form_contact input[type="submit"]:hover {
   }
 
   .educacion-titulo {
-    position: absolute;
     color: #c9c9c9;
     font-family: "Ysabeau SC", sans-serif;
     justify-content: center;
@@ -4963,33 +4920,28 @@ form.form_contact input[type="submit"]:hover {
     box-shadow: 5px 5px 5px;
     justify-content: center;
     border-radius: 10px;
-    margin-top: 20px;
   }
 
   .conteiner-educacion {
-    width: 100%;
+    width: 98%;
     display: flex;
-    padding: 44px;
+    padding: 10px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 0px;
     background: rgb(0, 0, 0);
-    height: 379px;
+    gap: 5px;
   }
 
   .educacion-tarjeta {
     display: inline-block;
     width: 92px;
-    height: 75px;
     border-radius: 10px;
-    margin: 4px;
-    margin-top: 4px;
     justify-content: center;
     text-align: center;
     padding: 3px;
     transition: all 300ms ease;
-    margin-top: 18px;
   }
 
   .educacion-tarjeta-img {
@@ -5000,21 +4952,13 @@ form.form_contact input[type="submit"]:hover {
     overflow: hidden;
   }
 
-  .conteiner-skills-titulo {
-    width: 100%;
-    height: 180px;
-    background: #000000;
-  }
-
   .conteiner-skills {
     display: flex;
     width: 100%;
-    height: 342px;
     justify-content: center;
     flex-wrap: wrap;
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
-    z-index: 100;
     background-image: linear-gradient(#ffffff38, #000000);
     background: #000;
   }
@@ -5105,24 +5049,15 @@ form.form_contact input[type="submit"]:hover {
 }
 
 @media screen and (max-width: 289px) {
-  .conteiner-skills-titulo {
-    width: 100%;
-    height: 257px;
-    background: #000000;
-  }
-
   .skills-titulo {
-    position: absolute;
     display: flex;
     width: 73px;
     height: 60px;
     color: #c9c9c9;
     font-family: "Ysabeau SC", sans-serif;
-    z-index: 100;
-    margin-left: 15px;
     border-radius: 10px;
     background: #000000;
-    margin-top: 90px;
+    margin-top: 23px;
   }
 
   .presentacion-tarjeta-skills {
@@ -5189,18 +5124,5 @@ form.form_contact input[type="submit"]:hover {
     justify-content: center;
     color: rgb(221, 221, 228);
     margin-left: 30px;
-  }
-
-  .conteiner-skills {
-    display: flex;
-    width: 100%;
-    height: 199px;
-    justify-content: center;
-    flex-wrap: wrap;
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
-    z-index: 100;
-    background-image: linear-gradient(#ffffff38, #000000);
-    background: #000;
   }
 }
