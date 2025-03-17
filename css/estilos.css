@@ -336,6 +336,7 @@ nav {
   display: inline-block;
   width: 35%;
   margin-bottom: 9px;
+  margin-top: 10px;
 }
 
 .educacion-titulo {
@@ -680,9 +681,10 @@ nav {
   font-size: 28px;
   font-weight: bold;
   padding: 10px;
+  color: #c9c9c9;
   letter-spacing: -2px;
   border-bottom: 1px solid #c9c9c9;
-  box-shadow: 5px 5px 5px;
+  box-shadow: 5px 5px 5px #c9c9c9;
   border-radius: 10px;
   justify-content: center;
   text-align: center;
@@ -710,8 +712,6 @@ nav {
   z-index: 100;
   display: flex;
   justify-content: center;
-  background-color: #1a1a1a;
-  border-bottom-right-radius: 80%;
 }
 
 .tarjeta-proyecto1 {
@@ -722,42 +722,40 @@ nav {
   justify-content: center;
   padding: 3px;
   color: rgb(221, 221, 228);
+  border: 1px solid #000;
 }
 
 .tarjeta-proyecto2 {
-  width: 480px;
   border-radius: 10px;
   margin: 25px;
   border-radius: 15px;
   justify-content: center;
   color: rgb(221, 221, 228);
+  border: 1px solid #000;
 }
 
 .img-proyecto1 {
   display: flex;
-  width: 380px;
-  height: 250px;
-  margin-top: 15px;
+  flex-wrap: wrap;
 }
 
 .img-proyecto2 {
   display: flex;
   width: 410px;
   height: 250px;
-  z-index: 100;
-  margin-top: 20px;
+  padding: 4px;
 }
 
 .img-proyecto1 img {
   width: 100%;
+  object-fit: cover;
   border-radius: 15px;
-  z-index: 100;
 }
 
 .img-proyecto2 img {
   width: 100%;
+  object-fit: cover;
   border-radius: 15px;
-  z-index: 100;
 }
 
 .tarjeta-proyecto1:hover {
@@ -772,17 +770,7 @@ nav {
   cursor: pointer;
 }
 
-.img-proyecto1 img:hover {
-  transform: scale(1.02);
-  transition: 450ms ease;
-}
-
-.img-proyecto2 img:hover {
-  transform: scale(1.02);
-  transition: 450ms ease;
-}
-
-/* EXPERIENCIA LABORAL */
+/*---------------- EXPERIENCIA LABORAL ----------------*/
 
 .conteiner-experiencia-laboral {
   position: absolute;
@@ -790,7 +778,7 @@ nav {
   width: 100%;
   height: 380px;
   background: #ffffff;
-  margin-top: 560px;
+  margin-top: 400px;
   justify-content: center;
   flex-wrap: wrap;
   border-top: 1px solid #ffffff;
@@ -956,7 +944,7 @@ nav {
 .form_wrap {
   z-index: 100;
   display: flex;
-  margin-top: 615px;
+  margin-top: 1125px;
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
