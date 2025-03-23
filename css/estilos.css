@@ -244,15 +244,16 @@ nav {
   width: 100%;
   justify-content: center;
   background: #000000;
-  box-shadow: 0px 80px 300px 200px #2c00ff;
+  box-shadow: 0px 60px 430px 190px #2c00ff;
 }
 
 .conteiner-barra2 {
   display: flex;
-  width: 65%;
+  width: 90%;
   border-right: 5%;
   border-bottom-right-radius: 100%;
   align-items: center;
+  margin: auto;
 }
 
 .conteiner-barra2 p {
@@ -333,11 +334,12 @@ nav {
 /*----------------- FORMACION -------------------*/
 
 .conteiner-educacion-titulo {
-  display: inline-block;
-  width: 35%;
-  height: 50px;
+  display: flex;
+  width: 90%;
+  height: auto;
   margin-bottom: 9px;
   margin-top: 10px;
+  margin: auto;
 }
 
 .educacion-titulo {
@@ -345,7 +347,6 @@ nav {
   color: #c9c9c9;
   font-family: "Ysabeau SC", sans-serif;
   justify-content: center;
-  margin-left: 15px;
   border-radius: 10px;
 }
 
@@ -362,7 +363,7 @@ nav {
 }
 
 .educacion-titulo:hover {
-  background: #1a1a1a;
+  background: #4f1fe1dd;
   color: bisque;
   transition: all 450ms ease;
   cursor: pointer;
@@ -380,8 +381,6 @@ nav {
   flex-wrap: wrap;
   margin: auto;
   margin-top: 30px;
-  box-shadow: 3px 3px 20px #000;
-  border-radius: 7%;
 }
 
 .educacion-tarjeta {
@@ -394,9 +393,7 @@ nav {
   padding: 5px;
   backdrop-filter: blur(5px);
   box-shadow: 5px -5px 1px 0px #4f1fe1dd;
-  border-left: 1px solid #000;
-  border-top: 1px solid #000;
-  transition: all 300ms ease;
+  border: 1px solid #000;
 }
 
 .educacion-tarjeta:hover {
@@ -405,26 +402,24 @@ nav {
 }
 
 .educacion-tarjeta-img img:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition: all 400ms ease;
 }
 
 .educacion-tarjeta-img {
   display: flex;
-  width: 178px;
-  height: 130px;
+  width: 185px;
+  height: 123px;
   justify-content: center;
   overflow: hidden;
   margin: auto;
+  padding: 5px;
 }
 
 .educacion-tarjeta-img img {
   width: 100%;
   border-radius: 15px;
-  border-left: 1px solid #a1a1a1;
-  border-top: 1px solid #a1a1a1;
-  border-right: 1px solid #a1a1a1;
-  border-bottom: 1px solid #a1a1a1;
+  border: 1px solid #000;
   transition: all 300ms;
 }
 
@@ -447,6 +442,11 @@ nav {
   color: #000000;
 }
 
+.educacion-texto h2:hover {
+  transform: scale(1.05);
+  transition: all 400ms ease;
+}
+
 .educacion-texto-parrafo {
   display: flex;
   margin: auto;
@@ -459,10 +459,16 @@ nav {
   margin: auto;
 }
 
+.educacion-texto b:hover {
+  color: #4f1fe1dd;
+  transition: all 400ms ease;
+}
+
 .footer-educacion {
   display: flex;
   justify-content: center;
   text-decoration: none;
+  margin: auto;
 }
 
 .footer-educacion button {
@@ -473,10 +479,7 @@ nav {
   color: #f0f0f057;
   text-decoration: none;
   text-decoration-line: none;
-  border-left: 1px solid #a1a1a1;
-  border-top: 1px solid #a1a1a1;
-  border-right: 1px solid #a1a1a1;
-  border-bottom: 1px solid #a1a1a1;
+  border: 1px solid #000;
   border-radius: 15px;
   background: #a1a1a150;
   backdrop-filter: blur(5px);
@@ -503,18 +506,18 @@ nav {
 
 .conteiner-skills-titulo {
   display: flex;
-  width: 93.5%;
-  height: 95px;
+  width: 90%;
+  height: auto;
   margin-top: 5px;
+  margin: auto;
+  box-shadow: 1px 10px 95px 213px bisque;
+  background: bisque;
 }
 
 .skills-titulo {
-  position: absolute;
   display: flex;
-  width: 90px;
-  height: 65px;
   color: #c9c9c9;
-  z-index: 100;
+  background: #2c00ff;
   margin-left: 15px;
   border-radius: 10px;
   margin-top: 25px;
@@ -530,7 +533,6 @@ nav {
   padding: 15px;
   letter-spacing: -1px;
   border-bottom: 1px solid #c9c9c9;
-  box-shadow: 5px 5px 5px;
   border-radius: 10px;
   justify-content: center;
 }
@@ -541,15 +543,15 @@ nav {
   color: bisque;
   transition: 450ms ease;
   border-radius: 10px;
-  box-shadow: 1px 1px 5px 2px #1a1a1a;
+  box-shadow: 1px 1px 5px 2px #673ab7;
 }
 
 .conteiner-skills {
   display: flex;
   width: 100%;
-  height: 340px;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 30px;
 }
 
 .presentacion-tarjeta-skills {
@@ -560,8 +562,7 @@ nav {
   justify-content: center;
   margin-right: 20px;
   flex-wrap: wrap;
-  border-left: 1.5px solid #a1a1a1;
-  border-top: 1.5px solid #a1a1a1;
+  border: 1px solid #000;
   box-shadow: 5px 5px 10px #000000;
   z-index: 1000;
   background: rgb(206, 206, 206);
@@ -668,8 +669,6 @@ nav {
 
 .proyecto-titulo {
   display: flex;
-  width: 165px;
-  height: 83px;
   font-family: "Ysabeau SC", sans-serif;
   padding: 10px;
   margin-top: 5px;
@@ -685,10 +684,10 @@ nav {
   color: #c9c9c9;
   letter-spacing: -2px;
   border-bottom: 1px solid #c9c9c9;
-  box-shadow: 5px 5px 5px #c9c9c9;
   border-radius: 10px;
   justify-content: center;
   text-align: center;
+  background: #2c00ff;
   box-shadow: 0px 1px 25px 0px #4f1fe1dd;
 }
 
@@ -701,16 +700,16 @@ nav {
   border-radius: 10px;
   padding: 10px;
   transition: all 500ms ease;
-  box-shadow: 5px 5px 5px bisque;
 }
 
 /* PROYECTOS */
 
 .conteiner-proyecto {
-  width: 100%;
+  width: 90%;
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
+  margin: auto;
 }
 
 .tarjeta-proyecto1 {
@@ -817,7 +816,7 @@ nav {
 
 .conteiner-cv-certificado {
   display: flex;
-  width: 100%;
+  width: 60%;
   justify-content: space-between;
   text-align: center;
   align-items: center;
@@ -910,15 +909,8 @@ nav {
 
 .contacto-background video {
   position: absolute;
-  width: 88%;
+  width: 100%;
   backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  border-top-left-radius: 7%;
-  border-top-right-radius: 7%;
-  border-bottom-left-radius: 7%;
-  border-bottom-right-radius: 7%;
-  border-top: 2px solid #c9c9c9;
-  border-left: 2px solid #c9c9c9;
 }
 
 :focus {
@@ -1148,14 +1140,6 @@ form.form_contact input[type="submit"]:hover {
   z-index: 100;
 }
 
-.footer {
-  position: absolute;
-  display: flex;
-  width: 100%;
-  height: 45px;
-  justify-content: center;
-}
-
 .footer-desarrollador a,
 .footer-desarrollador p {
   text-decoration: none;
@@ -1206,9 +1190,6 @@ form.form_contact input[type="submit"]:hover {
     flex-wrap: wrap;
     padding: 15px;
     margin: auto;
-    box-shadow: 3px 3px 20px #000;
-    background-color: floralwhite;
-    border-radius: 7%;
     margin-bottom: 30px;
   }
 }
@@ -1299,22 +1280,20 @@ form.form_contact input[type="submit"]:hover {
     cursor: pointer;
     -webkit-text-stroke: 0.2px #000000;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px 5px #ff4e4e;
+    box-shadow: 5px 5px 5px 5px #673ab7;
   }
 
   .educacion-tarjeta {
     display: flex;
-    background: rgba(225, 225, 225, 0.18);
+    background: #fff;
     border-radius: 10px;
     justify-content: center;
     text-align: center;
     padding: 5px;
     backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border-left: 1px solid #a1a1a1;
-    border-top: 1px solid #a1a1a1;
+    border: 1px solid #000;
     transition: all 300ms ease;
-    box-shadow: -5px 10px 1px 2px #3f51b5;
+    box-shadow: -5px 5px 1px 1px #673ab7;
   }
 
   .educacion-tarjeta:hover {
@@ -1337,11 +1316,14 @@ form.form_contact input[type="submit"]:hover {
 
   .educacion-tarjeta-img img {
     width: 100%;
-    border-radius: 15px;
-    border-left: 1px solid #444;
-    border-top: 1px solid #444;
-    border-right: 1px solid #a1a1a1;
-    border-bottom: 1px solid #444;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
     transition: all 300ms;
   }
 
@@ -1369,6 +1351,7 @@ form.form_contact input[type="submit"]:hover {
     display: flex;
     justify-content: center;
     text-decoration: none;
+    margin-top: 20px;
   }
 
   .footer-educacion button {
@@ -1408,15 +1391,9 @@ form.form_contact input[type="submit"]:hover {
   }
 
   .skills-titulo {
-    position: absolute;
     display: flex;
-    width: 90px;
-    height: 64px;
     color: #c9c9c9;
     font-family: "Ysabeau SC", sans-serif;
-    z-index: 100;
-    margin-top: 10px;
-    margin-left: 20px;
     border-radius: 10px;
   }
 
@@ -1443,11 +1420,13 @@ form.form_contact input[type="submit"]:hover {
 
   .conteiner-skills {
     display: flex;
-    width: 93.5%;
     justify-content: center;
     flex-wrap: wrap;
     padding: 10px;
     margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0px 80px 156px 206px #ffe4c4;
+    background: bisque;
   }
 }
 
@@ -1459,10 +1438,8 @@ form.form_contact input[type="submit"]:hover {
   justify-content: center;
   margin-right: 20px;
   flex-wrap: wrap;
-  border-left: 1.5px solid #000;
-  border-top: 1.5px solid #000;
+  border: 1px solid #000;
   box-shadow: -5px 5px 0px 1px #673ab7;
-  margin: auto;
 }
 
 .presentacion-tarjeta-skills:hover {
@@ -1555,28 +1532,18 @@ form.form_contact input[type="submit"]:hover {
 }
 
 .conteiner-titulo-proyecto {
-  width: 93.5%;
+  width: 90%;
   height: 100px;
+  margin: auto;
+  box-shadow: 1px 10px 95px 213px bisque;
+  background: bisque;
 }
 
 .proyecto-titulo {
-  position: absolute;
   display: flex;
-  width: 200px;
-  height: 50px;
   color: #c9c9c9;
   padding: 5px;
-  text-justify: distribute-all-lines;
-  font-family: "Ysabeau SC", sans-serif;
   align-items: center;
-  margin-left: 15px;
-  margin-top: 10px;
-}
-
-.conteiner-proyecto {
-  display: flex;
-  justify-content: center;
-  flex-flow: column;
 }
 
 .tarjeta-proyecto1 {
@@ -1608,15 +1575,6 @@ form.form_contact input[type="submit"]:hover {
   justify-content: center;
   flex-wrap: wrap;
   margin: auto;
-}
-
-.experiencia-laboral-titulo {
-  display: flex;
-  color: #ffffff;
-  text-justify: distribute-all-lines;
-  font-family: "Ysabeau SC", sans-serif;
-  align-items: center;
-  justify-content: space-between;
 }
 
 @media screen and (max-width: 1100px) {
@@ -1652,7 +1610,7 @@ form.form_contact input[type="submit"]:hover {
     transition: all 450ms ease;
     cursor: pointer;
     border-radius: 10px;
-    box-shadow: 1px 1px 5px 2px #ffffff;
+    box-shadow: 1px 1px 5px 2px #673ab7;
   }
 
   .conteiner-educacion {
@@ -1663,12 +1621,13 @@ form.form_contact input[type="submit"]:hover {
     flex-wrap: wrap;
     margin: auto;
     margin-top: 25px;
+    width: 55%;
   }
 
   .educacion-tarjeta {
     display: inline-block;
-    width: 145px;
-    border-radius: 10px;
+    height: 215px;
+    border-radius: 15px;
     justify-content: center;
     text-align: center;
     padding: 5px;
@@ -1757,7 +1716,7 @@ form.form_contact input[type="submit"]:hover {
     color: #1a1a1a;
     transition: 450ms ease;
     border-radius: 10px;
-    box-shadow: 1px 1px 5px 2px #1a1a1a;
+    box-shadow: 1px 1px 5px 2px #673ab7;
   }
 
   .conteiner-skills {
@@ -1775,9 +1734,7 @@ form.form_contact input[type="submit"]:hover {
     border-radius: 15px;
     justify-content: center;
     flex-wrap: wrap;
-    border-left: 1.5px solid #000;
-    border-top: 1.5px solid #000;
-    box-shadow: -5px 10px 1px 2px #3f51b5;
+    border: 1px solid #000;
   }
 
   .tarjeta-img {
@@ -1814,9 +1771,9 @@ form.form_contact input[type="submit"]:hover {
     width: 80%;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 15px;
-    box-shadow: 5px 5px 10px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
+    box-shadow: 0px 80px 156px 206px #ffe4c4;
+    background: bisque;
   }
 
   .conteiner-titulo-proyecto {
@@ -1845,7 +1802,6 @@ form.form_contact input[type="submit"]:hover {
     font-size: 28px;
     font-weight: bold;
     letter-spacing: -2px;
-    box-shadow: 1px 1px 5px 2px #ffffff;
     border-radius: 10px;
     justify-content: center;
     text-align: center;
@@ -1859,7 +1815,7 @@ form.form_contact input[type="submit"]:hover {
     -webkit-text-stroke: 0.2px #000000;
     border-radius: 10px;
     transition: all 400ms ease;
-    box-shadow: 1px 1px 5px 2px #ffffff;
+    box-shadow: 1px 1px 5px 2px #673ab7;
   }
 
   .conteiner-proyecto {
@@ -1871,61 +1827,13 @@ form.form_contact input[type="submit"]:hover {
     justify-content: center;
   }
 
-  .tarjeta-proyecto1 {
-    width: 314px;
-    border-radius: 10px;
-    margin: 25px;
-    border-radius: 19px;
-    border-bottom-right-radius: 19px;
-    border-bottom-left-radius: 19px;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-    justify-content: center;
-    color: rgb(221, 221, 228);
-    border-bottom-left-radius: 6%;
-    border-bottom-right-radius: 6%;
-    height: 176px;
-    margin-top: -35px;
-  }
-
-  .tarjeta-proyecto2 {
-    width: 320px;
-    border-radius: 10px;
-    border-radius: 19px;
-    border-bottom-left-radius: 19px;
-    border-bottom-right-radius: 15px;
-    justify-content: center;
-    color: rgb(221, 221, 228);
-    border-bottom-left-radius: 6%;
-    border-bottom-right-radius: 6%;
-    height: 160px;
-    margin-top: -35px;
-  }
-
-  .img-proyecto1 {
-    display: flex;
-    width: 314px;
-    height: 198px;
-    z-index: 100;
-    margin-left: -3px;
-    margin-top: -6px;
-  }
-
-  .img-proyecto2 {
-    display: flex;
-    width: 330px;
-    height: 194px;
-    z-index: 100;
-    margin-top: 0px;
-    margin-left: -3px;
-  }
-
   .conteiner-experiencia-laboral {
     display: flex;
-    width: 100%;
+    width: 75%;
     background: #ffffff;
     justify-content: center;
     flex-wrap: wrap;
+    margin: auto;
   }
 
   .experiencia-laboral-titulo {
@@ -2005,22 +1913,10 @@ form.form_contact input[type="submit"]:hover {
     justify-content: center;
   }
 
-  .contacto-background video {
-    position: absolute;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border-top-left-radius: 11%;
-    border-top-right-radius: 11%;
-    border-bottom-left-radius: 11%;
-    border-bottom-right-radius: 11%;
-  }
-
   .footer {
     position: absolute;
     display: flex;
     width: 100%;
-    height: 70px;
-    z-index: 100;
     justify-content: center;
   }
 }
@@ -2239,8 +2135,6 @@ form.form_contact input[type="submit"]:hover {
   }
 
   .educacion-titulo:hover {
-    width: 140px;
-    height: 57px;
     background: #fefefe;
     color: #000000;
     transition: all 450ms ease;
@@ -2303,7 +2197,6 @@ form.form_contact input[type="submit"]:hover {
     width: 85%;
     justify-content: center;
     flex-wrap: wrap;
-    background: #8049b2;
   }
 
   .presentacion-tarjeta-skills {
@@ -2368,7 +2261,7 @@ form.form_contact input[type="submit"]:hover {
     background: #ffffff;
     color: #000000;
     transition: all 450ms ease;
-    box-shadow: 5px 5px 5px #ff4e4e;
+    box-shadow: 5px 5px 5px #673ab7;
   }
 
   .descarga-cv a {
@@ -2390,7 +2283,7 @@ form.form_contact input[type="submit"]:hover {
     background: #ffffff;
     color: #000000;
     transition: all 450ms ease;
-    box-shadow: 5px 5px 5px #ff4e4e;
+    box-shadow: 5px 5px 5px #673ab7;
   }
 
   .experiencia-laboral-titulo {
@@ -2685,7 +2578,6 @@ form.form_contact input[type="submit"]:hover {
     color: rgb(0, 0, 0);
     -webkit-text-stroke: 0.2px #000000;
     border-radius: 10px;
-
     transition: all 400ms ease;
     box-shadow: 5px 5px 5px #3c3c3c;
   }
@@ -3231,10 +3123,8 @@ form.form_contact input[type="submit"]:hover {
     text-align: center;
     padding: 5px;
     backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
     box-shadow: 5px 5px 5px #0000006b;
-    border-left: 1px solid #a1a1a1;
-    border-top: 1px solid #a1a1a1;
+    border: 1px solid #000;
     transition: all 300ms ease;
   }
 
@@ -3309,8 +3199,6 @@ form.form_contact input[type="submit"]:hover {
   .footer {
     display: flex;
     width: 100%;
-    height: 61px;
-    z-index: 100;
     justify-content: center;
     align-items: center;
   }
@@ -3391,15 +3279,6 @@ form.form_contact input[type="submit"]:hover {
     font-weight: 500;
     -webkit-text-stroke: 1;
     height: 26px;
-  }
-
-  .footer {
-    position: absolute;
-    display: flex;
-    width: 100%;
-    height: 61px;
-    z-index: 100;
-    justify-content: center;
   }
 }
 
@@ -3522,15 +3401,6 @@ form.form_contact input[type="submit"]:hover {
     font-weight: 500;
     -webkit-text-stroke: 1;
     height: 28px;
-  }
-
-  .footer {
-    position: absolute;
-    display: flex;
-    width: 100%;
-    height: 61px;
-    z-index: 100;
-    justify-content: center;
   }
 }
 
@@ -3714,7 +3584,7 @@ form.form_contact input[type="submit"]:hover {
     background: #ffffff;
     color: #000000;
     transition: all 450ms ease;
-    box-shadow: 5px 5px 5px #ff4e4e;
+    box-shadow: 5px 5px 5px #673ab7;
   }
 
   .descarga-cv:hover {
@@ -3723,7 +3593,7 @@ form.form_contact input[type="submit"]:hover {
     background: #ffffff;
     color: #000000;
     transition: all 450ms ease;
-    box-shadow: 5px 5px 5px #ff4e4e;
+    box-shadow: 5px 5px 5px #673ab7;
   }
 
   form.form_contact h2 {
@@ -3752,8 +3622,6 @@ form.form_contact input[type="submit"]:hover {
   }
 
   .educacion-titulo p {
-    width: 105px;
-    height: 50px;
     font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
     font-size: 17px;
     font-weight: bold;
@@ -3765,8 +3633,6 @@ form.form_contact input[type="submit"]:hover {
   }
 
   .educacion-titulo:hover {
-    width: 106px;
-    height: 49px;
     background: #fefefe;
     color: #000000;
     transition: all 450ms ease;
@@ -3774,19 +3640,6 @@ form.form_contact input[type="submit"]:hover {
     -webkit-text-stroke: 0.2px #000000;
     border-radius: 10px;
     box-shadow: 5px 5px 5px #060606;
-  }
-
-  .skills-titulo {
-    position: absolute;
-    display: flex;
-    width: 75px;
-    height: 54px;
-    color: #c9c9c9;
-    font-family: "Ysabeau SC", sans-serif;
-    margin-left: 15px;
-    border-radius: 10px;
-    background: #220e82;
-    margin-top: 8px;
   }
 
   .skills-titulo p {
@@ -4023,7 +3876,6 @@ form.form_contact input[type="submit"]:hover {
     display: flex;
     width: 100%;
     height: 150px;
-    margin-top: -7px;
   }
 }
 
@@ -4071,36 +3923,12 @@ form.form_contact input[type="submit"]:hover {
 @media screen and (max-width: 433px) {
   .conteiner-barra2 {
     display: flex;
-    background: #1a1a1a;
     border-bottom-right-radius: 100%;
     align-items: center;
   }
 
   .conteiner-skills-titulo {
     width: 100%;
-  }
-
-  .skills-titulo {
-    position: absolute;
-    display: flex;
-    width: 75px;
-    height: 54px;
-    color: #c9c9c9;
-    font-family: "Ysabeau SC", sans-serif;
-    margin-left: 15px;
-    border-radius: 10px;
-    background: #1a1a1a;
-    margin-top: 8px;
-  }
-
-  .conteiner-skills {
-    display: flex;
-    width: 100%;
-    height: 313px;
-    justify-content: center;
-    flex-wrap: wrap;
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
   }
 
   .conteiner-imagen2-tarjeta img {
@@ -4131,53 +3959,6 @@ form.form_contact input[type="submit"]:hover {
     border-radius: 15px;
     justify-content: center;
     color: rgb(221, 221, 228);
-  }
-
-  .descarga-cv {
-    display: flex;
-    width: 96px;
-    height: 48px;
-    border-radius: 15px;
-    background: #000000;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    box-shadow: 2px 2px 2px #ffffff;
-    color: #ffffff;
-    align-content: center;
-  }
-
-  .descarga-certificado {
-    display: flex;
-    width: 96px;
-    height: 48px;
-    border-radius: 15px;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    background: #000000;
-    z-index: 100;
-    box-shadow: 2px 2px 2px #ffffff;
-    color: #ffffff;
-    align-content: center;
-  }
-
-  .descarga-certificado:hover {
-    width: 96px;
-    height: 48px;
-    background: #ffffff;
-    color: #000000;
-    transition: all 450ms ease;
-    box-shadow: 5px 5px 5px #ff4e4e;
-  }
-
-  .descarga-cv:hover {
-    width: 96px;
-    height: 48px;
-    background: #ffffff;
-    color: #000000;
-    transition: all 450ms ease;
-    box-shadow: 5px 5px 5px #ff4e4e;
   }
 }
 
@@ -4244,44 +4025,6 @@ form.form_contact input[type="submit"]:hover {
     border-radius: 10px;
     flex-wrap: wrap;
   }
-
-  .descarga-cv {
-    display: flex;
-    width: 96px;
-    height: 48px;
-    border-radius: 15px;
-    background: #000000;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    box-shadow: 2px 2px 2px #ffffff;
-    color: #ffffff;
-    align-content: center;
-  }
-
-  .descarga-certificado {
-    display: flex;
-    width: 96px;
-    height: 48px;
-    border-radius: 15px;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    background: #000000;
-    z-index: 100;
-    box-shadow: 2px 2px 2px #ffffff;
-    color: #ffffff;
-    align-content: center;
-  }
-
-  .descarga-certificado:hover {
-    width: 96px;
-    height: 48px;
-    background: #ffffff;
-    color: #000000;
-    transition: all 450ms ease;
-    box-shadow: 5px 5px 5px #ff4e4e;
-  }
 }
 
 @media screen and (max-width: 375px) {
@@ -4301,17 +4044,13 @@ form.form_contact input[type="submit"]:hover {
   .educacion-tarjeta {
     display: inline-block;
     width: 106px;
-    height: 97px;
-    background: rgba(225, 225, 225, 0.18);
     border-radius: 10px;
     justify-content: center;
     text-align: center;
     padding: 3px;
     backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    box-shadow: 5px 5px 5px #d40cf06b;
-    border-left: 1px solid #a1a1a1;
-    border-top: 1px solid #a1a1a1;
+    box-shadow: 4px -4px 1px -1px #673ab7;
+    border: 1px solid #000;
     transition: all 300ms ease;
   }
 
@@ -4348,11 +4087,9 @@ form.form_contact input[type="submit"]:hover {
     width: 96px;
     height: 48px;
     border-radius: 15px;
-    background: #000000;
     justify-content: center;
     text-align: center;
     align-items: center;
-    z-index: 100;
     box-shadow: 2px 2px 2px #ffffff;
     color: #ffffff;
     align-content: center;
@@ -4367,8 +4104,6 @@ form.form_contact input[type="submit"]:hover {
     justify-content: center;
     text-align: center;
     align-items: center;
-    background: #000000;
-    z-index: 100;
     box-shadow: 2px 2px 2px #ffffff;
     color: #ffffff;
     align-content: center;
@@ -4388,29 +4123,6 @@ form.form_contact input[type="submit"]:hover {
     border-bottom: 1px solid #c9c9c9;
     box-shadow: 5px 5px 5px;
     justify-content: center;
-    border-radius: 10px;
-  }
-
-  .skills-titulo {
-    position: absolute;
-    display: flex;
-    width: 73px;
-    height: 60px;
-    color: #c9c9c9;
-    font-family: "Ysabeau SC", sans-serif;
-    z-index: 100;
-    margin-left: 15px;
-    border-radius: 10px;
-    background: #1a1a1a;
-    margin-top: 8px;
-  }
-
-  .skills-titulo:hover {
-    width: 74px;
-    background: #ffffff;
-    color: #000000;
-    transition: 450ms ease;
-    -webkit-text-stroke: 0.2px #000000;
     border-radius: 10px;
   }
 
@@ -4443,11 +4155,9 @@ form.form_contact input[type="submit"]:hover {
     display: flex;
     width: 78px;
     height: 100px;
-    background: rgb(22, 178, 204);
-    border-radius: 60px;
+    background: #673ab7;
     justify-content: center;
     flex-wrap: wrap;
-    box-shadow: 1px 1px 10px 1px #000000;
   }
 
   .tarjeta-img {
@@ -4538,8 +4248,6 @@ form.form_contact input[type="submit"]:hover {
   }
 
   .educacion-titulo p {
-    width: 105px;
-    height: 50px;
     font-family: "AdihausDIN", Helvetica, Arial, sans-serif;
     font-size: 20px;
     font-weight: bold;
@@ -4563,7 +4271,6 @@ form.form_contact input[type="submit"]:hover {
 
   .educacion-tarjeta {
     display: inline-block;
-    width: 92px;
     border-radius: 10px;
     justify-content: center;
     text-align: center;
@@ -4584,6 +4291,7 @@ form.form_contact input[type="submit"]:hover {
     width: 100%;
     justify-content: center;
     flex-wrap: wrap;
+    gap: 10px;
   }
 
   .tarjeta-proyecto1 {
@@ -4620,74 +4328,15 @@ form.form_contact input[type="submit"]:hover {
     height: 150px;
     margin-top: -7px;
   }
-
-  .descarga-cv {
-    display: flex;
-    width: 96px;
-    height: 48px;
-    border-radius: 15px;
-    background: #000000;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    z-index: 100;
-    box-shadow: 2px 2px 2px #ffffff;
-    color: #ffffff;
-    align-content: center;
-    margin-left: 25px;
-  }
-
-  .descarga-certificado {
-    display: flex;
-    width: 96px;
-    height: 48px;
-    border-radius: 15px;
-    background: #000000;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    z-index: 100;
-    box-shadow: 2px 2px 2px #ffffff;
-    color: #ffffff;
-    align-content: center;
-    margin-right: 25px;
-  }
 }
 
 @media screen and (max-width: 289px) {
-  .skills-titulo {
-    display: flex;
-    width: 73px;
-    height: 60px;
-    color: #c9c9c9;
-    font-family: "Ysabeau SC", sans-serif;
-    border-radius: 10px;
-    background: #000000;
-    margin-top: 23px;
-  }
-
-  .presentacion-tarjeta-skills {
-    display: flex;
-    width: 59px;
-    height: 69px;
-    background: rgb(22, 178, 204);
-    border-radius: 60px;
-    justify-content: center;
-    margin-right: 10px;
-    flex-wrap: wrap;
-    z-index: 1000;
-    margin-top: 1px;
-  }
-
   .tarjeta-img {
     border-radius: 15px;
     display: flex;
-    width: 43px;
-    height: 51px;
     justify-content: center;
     flex-wrap: wrap;
-    border-bottom: 1px solid #a1a1a1;
-    border-top: 1px solid #a1a1a1;
+    border: 1px solid #000;
     margin-top: 8px;
     background: #ffffff;
   }
