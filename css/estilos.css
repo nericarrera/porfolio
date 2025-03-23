@@ -1547,10 +1547,9 @@ form.form_contact input[type="submit"]:hover {
 }
 
 .tarjeta-proyecto1 {
-  width: 455px;
+  width: 500px;
   border-radius: 10px;
   justify-content: center;
-  color: rgb(221, 221, 228);
 }
 
 .img-proyecto1 {
@@ -1560,7 +1559,6 @@ form.form_contact input[type="submit"]:hover {
 .tarjeta-proyecto2 {
   border-radius: 10px;
   justify-content: center;
-  color: rgb(221, 221, 228);
 }
 
 .img-proyecto2 {
