@@ -1694,7 +1694,6 @@ form.form_contact input[type="submit"]:hover {
 
   .presentacion-tarjeta-skills {
     display: flex;
-    width: 120px;
     background: rgb(255, 255, 255);
     border-radius: 15px;
     justify-content: center;
@@ -1719,7 +1718,6 @@ form.form_contact input[type="submit"]:hover {
   .tarjeta-videogame img {
     display: flex;
     width: 97%;
-    margin: 36px;
   }
 
   .proyecto-titulo {
