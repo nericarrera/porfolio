@@ -921,6 +921,7 @@ nav {
   justify-content: center;
   gap: 60px;
   margin-top: 90px;
+  margin-bottom: 50px;
 }
 
 /* Informacion de Contacto*/
@@ -1146,7 +1147,6 @@ form.form_contact input[type="submit"]:hover {
   font-family: "Ysabeau SC", sans-serif;
   z-index: 1000;
   margin: auto;
-  margin-top: 150px;
 }
 
 .footer-desarrollador a,
@@ -2717,7 +2717,6 @@ form.form_contact input[type="submit"]:hover {
   }
 
   .nav-list {
-    display: flex;
     flex-direction: column;
     list-style-type: none;
     gap: 1rem;
@@ -2734,7 +2733,7 @@ form.form_contact input[type="submit"]:hover {
     justify-content: flex-start;
     border: 1px solid;
     box-shadow: 5px -5px 1px 1px #000;
-    margin-top: 60px;
+    margin-top: 40px;
   }
 
   .navmenu-titulo p {
