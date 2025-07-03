@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import { BiTextRight, Bix } from "react-icons/bi";
+import { BiTextRight, BiX } from "react-icons/bi";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
